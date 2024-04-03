@@ -1,0 +1,312 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+margin:0;
+padding:0;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+b{font-size: 110%;}
+em{color: red;}
+
+
+#topsection{
+background: ##ECEDED;
+height: 170px; /*Height of top section*/
+margin:0;
+}
+
+#topsection h1{
+margin: 0;
+padding-top: 15px;
+}
+
+#logo{
+width:162px;
+margin:20px;
+text-align:center;	
+}
+
+#contentwrapper{
+float: left;
+width: 100%;
+}
+
+#contentcolumn{
+margin-left: 300px; /*Set left margin to LeftColumnWidth*/
+}
+
+#leftcolumn{
+float: left;
+width:200px; /*Width of left column*/
+margin-left: -100%;
+font-size:12px;
+}
+
+#footer{
+clear: left;
+width: 97,5%;
+background: #e9e9e9;
+color: #6e6d6d;
+text-align: center;
+font-size:12px;
+padding:20px;
+}
+
+
+#map {
+width:100%;
+height:470px;
+background:#CCC;
+}
+
+#busca_box{
+     padding:10px 10px 0 20px;
+	width:280px;
+	height:460px;
+	background:#DDE3E4;
+	color:#3F6079;
+
+}
+
+#form_box{
+ width:260px;
+ padding-right:10px;
+ font-size:12px;
+ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;	
+}
+
+#form_box .item_label{
+width:90px;
+float:left;
+}
+
+
+.botao{
+ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size:12px;
+font-style:normal;
+font-weight:bold;
+color:#fff;
+background:#f07d19;
+border:0px solid #ffffff;
+border-radius:5px 5px 5px 5px;
+-moz-border-radius:5px 5px 5px 5px;
+-webkit-border-radius:5px 5px 5px 5px;
+width:90px;
+padding:4px;
+cursor:pointer;
+
+}
+
+.botao a:active{
+cursor:pointer;
+position:relative;
+top:2px;
+}
+
+.select{
+    padding: 5px;
+    font-size: 12px;
+    width: 150px;
+	color:#333;
+	margin-left:10px;
+	
+	border-radius:4px 4px 4px 4px;
+   -moz-border-radius:4px 4px 4px 4px;
+   -webkit-border-radius:4px 4px 4px 4px;
+   border:1px solid #c7c5c5;
+   
+   /*gradiente*/
+   background: #fefefe; /* Old browsers */
+background: -moz-linear-gradient(top, #fefefe 0%, #f1f1f1 50%, #e7e7e7 98%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(50%,#f1f1f1), color-stop(98%,#e7e7e7)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #fefefe 0%,#f1f1f1 50%,#e7e7e7 98%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #fefefe 0%,#f1f1f1 50%,#e7e7e7 98%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #fefefe 0%,#f1f1f1 50%,#e7e7e7 98%); /* IE10+ */
+background: linear-gradient(to bottom, #fefefe 0%,#f1f1f1 50%,#e7e7e7 98%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e7e7e7',GradientType=0 ); /* IE6-9 */
+	
+	
+}
+
+input:focus {
+    outline:none;
+}
+
+#busca_titulo { 
+  
+    float:left;
+	width:250px;
+   	color:#3991cb;
+	padding:5px;
+	text-align:left;
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+
+
+/************estilo resultado busca*************/
+
+#lista{
+float :left;
+height:470px;
+overflow-x:hidden;
+overflow-y:scroll;
+width:298px;
+margin-top:0;	
+background:#dde3e4;
+}
+
+.lista_foto{
+    float: left;
+    width: 61px;
+    height: 42px;
+    border: 1px solid #cccbcb;
+}	
+
+
+.lista_item{
+color:#999;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size:10px;
+height:50px;
+line-height:1;
+padding-left: 10px;
+padding-top: 10px;	
+width:288px;
+}
+
+
+.lista_icone{
+width:25px;
+height:15px;
+background:#305998;
+color:#fff;
+font-size:10px;
+font-weight:bold;
+text-align:center;
+float:left;
+margin-right: 10px;
+padding:3px 0 0 2px;
+}
+
+.lista_texto{
+  float:left;
+  height:45px;
+  width:160px;
+  margin-left:10px;	
+}
+
+.box_paginas{
+ background:#e9e9e9;
+ border-top:1px solid #eee;
+ float: left;
+ padding:10px;
+ margin-bottom:20px;
+ width:278px;
+ color:#03356a;
+}
+
+.paginas{
+float:right;
+text-align: right;
+width: 150px;	
+}
+
+.link_paginas{
+color:#666;
+font-size:11px;
+text-decoration:none;	
+}
+
+.lista_titulo{
+color:#1797ae;
+font-size:12px;
+margin-left:10px;
+margin-bottom:10px;	
+float:left;
+}
+
+.box_label{
+float:left;
+padding:8px;
+width:278px;
+z-index:10;
+}
+
+.icone_fechar{
+float:right;
+height:14px;
+width:14px;
+z-index:20;	
+margin-top:-50px;
+margin-right:10px;
+}
+.imovel-selecionado img {
+    background-color: red;
+}
+
+.links a{
+ color: #03356A;
+ text-decoration: none;	
+}
+
+.links a:hover{
+ color: #F58B1B;
+ text-decoration: none;	
+}
+
+.overlay {
+    font-size: .7em;
+    font-weight: bold;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+
+.Residencial {
+    color: #fff;
+}
+
+.Comercial {
+    color: #fff;
+}
+
+.Padrao {
+    color: #fff;
+}
+
+.infoWindow img.foto {
+    border: 1px solid #cccbcb;
+    width: 61px;
+    height: 42px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.infoWindow .bairro {
+    color:#25a3af;
+    font-size:12px;
+}
+
+.infoWindow .valor {
+    color:#354694;
+    font-size:14px;
+    font-weight:bold;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;	
+}
+
+.infoWindow .endereco {
+    clear: left;
+    color:#999;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:12px;
+    margin: 15px 0;
+}
+
+.infoWindow .detalhes {
+    float: left;
+}

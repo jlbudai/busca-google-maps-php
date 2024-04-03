@@ -1,0 +1,1454 @@
+*{margin:0; padding:0;}
+
+
+body{
+    background: #fff;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color: #5a5a5a;
+}
+
+#conteudo-geral{
+    width:100%;
+    float: left;
+}
+
+/*********************TOPO*****************/
+#topo_principal {
+    width: 100%;
+    background:url(../images/bg_topo.png) repeat-x;
+    height:665px;
+	padding-top:20px;
+}
+
+#conteudo_topo_principal{
+    width: 1000px;
+	height: 640px;
+    margin:0 auto;
+    z-index:20;
+	background-color:#eceded;
+	border:2px solid #FFF;
+	border-radius:6px 6px 6px 6px;
+    -moz-border-radius:6px 6px 6px 6px;
+}
+
+#busca_padrao_principal {
+    width:286px;
+	height:407px;
+    float:left;
+	position:absolute;
+    font-size:12px;
+	margin:25px;
+	
+	background-color:#dde3e4;
+	border:2px solid #FFF;
+	 border-radius:6px 6px 6px 6px;
+    -moz-border-radius:6px 6px 6px 6px;
+	z-index:25;
+}
+
+#busca_box {
+	width:255px;
+	height: 320px;
+	padding:20px 15px;
+	
+	color:#3f6079;
+	float:left;
+	position:relative;
+	z-index:30;	
+}
+
+
+/******internas******/
+#topo_internas{
+width:100%;
+background:url(../images/bg_topo_internas.png) repeat-x;
+height:420px;
+padding-top:20px;	
+}
+
+#conteudo-topo-internas{
+	width: 1000px;
+	height: 400px;
+    margin:0 auto;
+   
+	background-color:#eceded;
+	border:2px solid #FFF;
+	border-radius:6px 6px 6px 6px;
+    -moz-border-radius:6px 6px 6px 6px;
+}
+
+#busca_padrao_internas {
+    width:680px;
+	height:210px;
+    float:left;
+	position:absolute;
+    font-size:12px;
+	margin:25px;
+	
+	background-color:#dde3e4;
+	border:2px solid #FFF;
+	 border-radius:6px 6px 6px 6px;
+    -moz-border-radius:6px 6px 6px 6px;
+	
+}
+
+/* Busca Box */
+#busca_box_internas {
+	width:650px;
+	height: 180px;
+	padding:20px;
+	z-index:29;
+	color:#3f6079;
+	float:left;
+	position:relative;	
+}
+#buscaForm_internas {
+    width:640px; 
+    color:#3f6079;
+}
+
+
+/**************************/
+
+/* Busca Form */
+#buscaForm {
+    width:270px; 
+    color:#3f6079;
+}
+
+
+.linhas{
+	clear:both;
+	padding:4px 4px 8px 4px;
+}
+
+label{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size:12px;
+
+}
+
+
+.label2{
+width:95px;
+float:left;
+}
+
+.label_interna{
+width:80px;
+float:left;	
+}
+
+.linhas_internas{
+	clear:both;
+	padding:3px;
+}
+
+/**MAPA**/
+#box_busca_mapa_internas{
+	position:relative;
+	float:right;
+	width:136px;
+	height:127px;
+	border:0;
+	margin-right:10px;
+	margin-top:-140px;
+}
+
+#box_busca_mapa_internas a{
+text-decoration:none;
+}
+
+
+
+#box_agente_internas{
+	width:262px;
+	height:188px;
+	float:right;
+	position:relative;
+	margin-top:45px;
+	margin-right:5px;
+}
+
+/************************/
+
+#logo{
+    float: left;
+    padding:10px 60px 10px 30px;
+    width: 90px;
+}
+
+
+/***MENU principal***/
+
+nav  {
+	display: block;
+	width: 800px;
+	overflow: hidden;
+	margin-right:10px;
+}
+
+nav ul {
+	margin: 80px 0 20px 0;
+	padding: .5em;
+	float: left;
+	list-style: none;
+	-moz-border-radius: .4em;
+	-webkit-border-radius: .4em;
+	border-radius: .4em;    
+	
+}
+
+nav li {
+	float:left;
+}
+
+nav a {
+	float:left;
+	padding: .9em 1.5em;
+	text-decoration: none;
+	color: #2e4692;
+	text-shadow: 0 1px 0 rgba(255,255,255,.5);
+	font: bold 11px 'trebuchet MS', Arial, Helvetica;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #fff #ccc #5f97ab #fff;
+	
+	
+	background: #83b3c5;
+	background: -moz-linear-gradient(#cadde0, #83b3c5);
+	background: -webkit-gradient(linear, left top, left bottom, from(#cadde0), to(#83b3c5));
+	background: -webkit-linear-gradient(#cadde0, #83b3c5);
+	background: -o-linear-gradient(#cadde0, #83b3c5);
+	background: -ms-linear-gradient(#cadde0, #83b3c5);
+	background: linear-gradient(#cadde0, #83b3c5);  
+}
+
+nav a:hover, nav a:focus {
+	outline: 0;
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(0,0,0,.2);
+	background: #305998;
+	background: -moz-linear-gradient(#305998, #204682);
+	background: -webkit-gradient(linear, left top, left bottom, from(#305998), to(#204682));
+	background: -webkit-linear-gradient(#305998, #204682);
+	background: -o-linear-gradient(#305998, #204682);
+	background: -ms-linear-gradient(#305998, #204682);
+	background: linear-gradient(#305998, #204682);
+}
+
+nav a:active {
+	-moz-box-shadow: 0 0 2px 2px rgba(0,0,0,.3) inset;
+	-webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,.3) inset;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,.3) inset;
+}
+ 
+nav li:first-child a {
+	border-left: 0;
+	-moz-border-radius: 4px 0 0 4px;
+	-webkit-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;            
+}
+
+nav li:last-child a {
+	border-right: 0;
+	-moz-border-radius: 0 4px 4px 0;
+	-webkit-border-radius: 0 4px 4px 0;
+	border-radius: 0 4px 4px 0;            
+}
+
+
+/****FIM MENU***/
+
+
+
+
+
+/* Busca Form */
+#buscaForm {
+    width:270px; 
+    color:#3f6079;
+}
+
+
+.linhas{
+	clear:both;
+	padding:4px;
+	
+}
+
+label{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+
+
+.label2{
+width:95px;
+float:left;	
+	
+}
+
+
+.select-1{
+    padding: 4px;
+    font-size: 11px;
+    width: 152px;
+	color:#8d8b8b;
+	margin-right:10px;
+	border-radius:4px 4px 4px 4px;
+   -moz-border-radius:4px 4px 4px 4px;
+   -webkit-border-radius:4px 4px 4px 4px;
+   border:1px solid #c7c5c5;
+   
+   /*gradiente*/
+   background: #fefefe; /* Old browsers */
+background: -moz-linear-gradient(top, #fefefe 0%, #f1f1f1 50%, #e7e7e7 98%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(50%,#f1f1f1), color-stop(98%,#e7e7e7)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #fefefe 0%,#f1f1f1 50%,#e7e7e7 98%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #fefefe 0%,#f1f1f1 50%,#e7e7e7 98%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #fefefe 0%,#f1f1f1 50%,#e7e7e7 98%); /* IE10+ */
+background: linear-gradient(to bottom, #fefefe 0%,#f1f1f1 50%,#e7e7e7 98%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e7e7e7',GradientType=0 ); /* IE6-9 */
+   
+   
+	
+}
+
+/*input:focus {
+    outline:none;
+}*/
+
+/********FIM BUSCA PADRÃO*************/
+
+
+/*********** MEIO *********/
+
+#meio {
+	width: 100%;
+    background:#b7dce2;
+	margin: 0 auto;
+	height:993px;
+
+}
+
+
+#meio_geral{
+    width: 1000px;
+    height:98%;
+	margin: 0 auto;
+	background-color:#eceded;
+	border:2px solid #FFF;
+
+}
+
+
+/***MEIO TOPO***/
+#meio_topo{
+   width: 100%;
+   float: left;
+   margin-bottom:0;
+   
+}
+
+#meio_topo_esq{
+   float:left;
+   width:670px;
+   height:826px;
+}
+
+
+
+#meio_topo_dir{
+float:left;
+width:306px;
+height:329px;
+
+}
+
+/**MAPA**/
+#box_busca_mapa{
+	position:relative;
+	width:226px;
+	height:65px;
+	border:0;
+	margin-left:10px;
+	margin-top:30px;
+}
+
+#box_busca_mapa a{
+text-decoration:none;
+}
+
+
+
+#box_agente{
+	width:645px;
+	height:154px;
+	background:url(../images/bg_agente.jpg) no-repeat;
+	float:right;
+	position:relative;
+	
+}
+
+#box_agente_conteudo{
+	width: 316px;
+	height:110px;
+    padding: 10px 15px 15px 5px;
+	color:#787879;
+	font-size:12px;
+}
+
+#botao_agente{
+	padding-top:15px;
+	
+}
+/****SLIDE-SHOW*****/
+
+#slide_show{
+    float: right;
+	position:relative;
+    width: 643px;
+    height: 312px;
+    background:#fff;
+	border:1px solid #c5dbe0;
+	margin-top:25px;
+	margin-right:20px;
+}
+
+
+#banner-parceiro{
+    margin: 0 auto;
+    width: 630px;
+}
+
+
+#coin-slider{
+	margin:15px ;
+	
+}
+/**********FIM MEIO TOPO***********/
+
+
+
+/****MEIO DESTAQUE***/
+
+#imovel-destaque{
+    width: 100%;
+     clear: both;
+   	padding:30px 0;
+	
+}
+
+#conteudo-imovel-destaque{
+	margin:  0 auto;
+    height: 488px;
+	width:670px;
+}
+
+#box-imovel{
+    float: left;
+    width: 192px;
+    height: 222px;
+	margin:5px 5px 20px 10px;
+}
+
+.foto{
+   	border:1px solid #fff;
+}	
+	
+
+#box-imovel .bg-valor{
+   float:left;
+   width:190px;
+   height:72px;
+   color:#1797ae;
+   border:1px solid #b6cacd;
+   font-weight:bold;
+   background:#dde3e4;
+   margin-top:-2px;
+   margin-left:2px;
+
+}
+
+#box-imovel .tit{
+    font-size: 14px;
+	font-weight:bold;
+    margin-left:10px; 
+    margin-top:10px;
+	width:185px;
+}
+
+#box-imovel .valor{
+	font-weight:bold;
+    font-size: 14px;
+    margin-left:10px; 
+    margin-top: 2px;
+	width:185px;
+}
+
+#box-imovel .mais-detalhes{
+    float: left;
+	background:url(../images/bt_mais_detalhes.png) no-repeat;
+	margin-top:-10px;
+	margin-left:15px;
+}
+
+#box-imovel .mais-detalhes a{
+	text-decoration:none;
+}
+
+#bt-esq{
+    float:left; 
+    padding-right: 5px;
+    padding-top:90px;
+    cursor: pointer;
+	width:21px;
+	height:32px;
+}
+
+#bt-dir{
+    cursor: pointer;
+	
+}
+
+/*****************FIM MEIO DESTAQUE********************/
+
+
+
+/****MEIO BAIXO********/
+#meio-baixo{
+    float: left;
+    width: 100%;
+}
+
+
+/***noticias***/
+#noticias{
+    float: left;
+    width: 300px;
+    height: 370px;
+    margin: 20px 0;
+}
+
+#noticias .texto{
+    float: left;
+    width: 280px;
+    height: 300px;
+    margin: 10px 10px 10px 0;
+}
+
+#titulo-noticias{
+width:60px;
+height:15px;
+float:left;
+color:#676666;
+background:#cccbcb;
+border-radius:0px 0px 5px 5px;
+-moz-border-radius:0px 0px 5px 5px;
+-webkit-border-radius:0px 0px 5px 5px;
+border-color:1px solid #666;
+padding:10px;
+font-size:14px;
+font-weight: bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+margin:0 20px;
+}
+
+
+#bt_noticias{
+float:left;	
+
+}
+
+#bt_noticias a{
+text-decoration:none;
+color:#FFF;	
+	
+}
+/************fim noticias****************/
+
+
+/**banner cadastro imoveis***/
+#cadastro_imovel{
+	float:left;
+	width:300px;
+	height:375px;
+	padding-top:40px;
+	margin-right:20px;
+}
+/***fim banner cadastro imovel***/
+
+
+/****Publicidade parceiros**********/
+#parceiros{
+    float: left;
+    width: 608px;
+    height: 222px;
+    margin-top:30px;
+	padding:15px 20px 20px 30px;
+}
+
+#parceiros .bg-logo{
+    float: left;
+    width: 265px;
+    height: 120px;
+    background:url(../images/bg_parceiros.png) no-repeat;
+    margin-top: 10px;
+	padding:8px;
+}
+
+#parceiros a img{
+    float: left;
+    width: 265px;
+    height: 120px;
+   	padding:10px;
+}
+
+#titulo{
+    float: left;
+    color: #676666;
+    font-weight: bold;
+    font-size: 14px;
+	padding-bottom:10px;
+	width:auto;
+	
+}
+
+#titulo a{
+    text-decoration:none;
+	color:#06386d;
+}
+
+#titulo h5{
+	border-top:1px solid #b1b0b0;
+    padding-top:10px;
+	width:280px;
+}
+
+#titulo-interna{
+    float: left;
+    width: 100%;
+    color: #06386d;
+    font-weight: bold;
+    font-size: 24px;
+}
+/**********fim publicidade parceiros***********/
+
+
+/***INDICES ECONOMICOS***/
+#indices-economicos{
+    float: left;
+    margin-left: 40px;
+	margin-top:20px;
+    width: 931px;
+
+}
+
+#indices-economicos .texto-indices{
+    float: left;
+  
+}
+#indices-economicos table{
+    float: left;
+	padding:5px;
+	width:920px;
+	height:47px;
+}
+#indices-economicos table tr td{
+    float: left;
+	padding:10px 0 10px 10px;
+	width:95px;
+	border:1px solid #fff;
+	
+}
+#indices-economicos table tr td b{
+    color: #1797ae;
+	padding-left:10px;
+	
+}
+
+.table_cor1{
+	background:#dde3e4;
+}
+
+.table_cor2{
+	background:#d2d7d8;
+}
+
+
+#obs{
+    float: left;
+	margin:20px 0 40px 40px;
+    color: #787879;
+    font-size: 11px;
+    width: 930px;
+}
+
+/****FIM INDICES ECONOMICOS****/
+
+
+
+#rodape{
+    float: left;
+    width: 100%;
+    background: #dde3e4;
+    height: 217px;
+	font-size:12px;
+}
+
+
+#conteudo-rodape{
+    width: 1000px;
+	height:217px;
+	margin: 0 auto;
+}
+
+
+#menu_inferior{
+	float: right;
+    width: 727px;
+    height:32px;
+	margin-top:5px;
+	background:#bcd0d3;
+	color:#466e82;
+	border:1px solid #fff;
+}
+
+#menu_inferior ul {
+	padding: 5px;
+	margin:5px;
+	list-style: none;
+	float: left;
+	clear: left;
+	
+}
+
+#menu_inferior ul li {
+	float: left;
+	display: inline; /*For ignore double margin in IE6*/
+	margin: 0 5px;
+
+}
+
+#menu_inferior ul li a{
+	text-decoration: none;
+	float:left;
+	color: #466e82;
+	cursor: pointer;
+}
+
+
+
+#menu_inferior ul li a:hover {
+	text-decoration: none;
+	float:left;
+	color: #fff;
+	cursor: pointer;
+}
+
+#menu_inferior ul li a span {
+	margin: 0 5px 0 5px;
+	padding: 1px 5px 5px 10px;
+	position: relative; /*To fix IE6 problem (not displaying)*/
+	float:left;
+}
+
+
+#endereco{
+    float: left;
+    margin-top: 30px;
+	margin-left:42px;
+    width:260px;
+	color:#787879;
+	font-size:13px;
+}
+
+.titulo{
+	line-height:200%;
+	font-weight:bold;
+	color:#466e82;
+	text-transform:uppercase;
+}
+
+
+.img_end{
+float:left;
+width:39px;
+height:37px;
+margin-top:20px;
+padding-right:10px;
+}
+
+#contato_fone{
+	float:left;
+	margin-top:30px;
+	margin-left:90px;
+	width:300px;
+}
+
+#creditos{
+    float: right;
+	text-align:center;
+	margin: 90px 10px 0 20px;
+	margin-left:30px;
+	width:169px;
+}
+
+
+/* ESTILOS INTERNAS***/
+
+h3{ /*Titulo*/
+color:#2e4692;
+font-size:16px;	
+text-transform:uppercase;
+padding-bottom:20px;
+}
+
+h4{  /*Subtitulo*/
+font-size:14px;	
+color:#3991cb;
+text-transform:uppercase;	
+
+}
+
+
+.img_sobre{
+float:right;
+padding:10px;	
+	
+}
+
+
+#meio-conteudo{
+	width: 980px;
+	float: left;
+    margin:20px 20px 70px 20px;
+	
+}
+
+#texto-interna{
+    font-size: 12px;
+	color:#787879;
+	margin-top:10px;
+	height:auto;
+}
+
+
+#texto-interna a{
+    color: #305998;
+    text-decoration: none;
+}
+#texto-interna a:hover{
+    color: #429bd0;
+    text-decoration: none;
+}
+
+
+
+#texto-interna label {
+       float: left;
+       width: 200px;
+       margin-top: 5px;
+	   color:#787879;
+}
+
+
+.input-text{
+padding:5px;
+font-size:12px;
+color:#8d8b8b;    
+margin-top:10px;
+background:#fff;
+border-radius:4px 4px 4px 4px;
+-moz-border-radius:4px 4px 4px 4px;
+ -webkit-border-radius:4px 4px 4px 4px;
+border:1px solid #c7c5c5;
+ 
+ 
+ 
+}
+
+.input-text2{
+padding:5px;
+font-size:12px;
+color:#8d8b8b;    
+margin-top:10px;
+
+background:#fff;
+border-radius:4px 4px 4px 4px;
+-moz-border-radius:4px 4px 4px 4px;
+ -webkit-border-radius:4px 4px 4px 4px;
+ border:1px solid #c7c5c5;
+
+/*gradiente*/
+background: #fefefe; /* Old browsers */
+background: -moz-linear-gradient(top, #fefefe 0%, #f1f1f1 50%, #e7e7e7 98%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(50%,#f1f1f1), color-stop(98%,#e7e7e7)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #fefefe 0%,#f1f1f1 50%,#e7e7e7 98%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #fefefe 0%,#f1f1f1 50%,#e7e7e7 98%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #fefefe 0%,#f1f1f1 50%,#e7e7e7 98%); /* IE10+ */
+background: linear-gradient(to bottom, #fefefe 0%,#f1f1f1 50%,#e7e7e7 98%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e7e7e7',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+/****forms e fieldsets cadastro imoveis***/
+.cad_imoveis{
+	padding:10px 20px 20px 20px;
+	border:1px solid #d4d4d4;
+	background:#fff;
+    border-radius:8px 8px 8px 8px;
+    -moz-border-radius:8px 8px 8px 8px;
+    -webkit-border-radius:8px 8px 8px 8px;
+   
+}
+
+.cad_imoveis legend{
+font-size:14px;
+font-weight:bold;
+padding:10px;
+color:#466e82;
+	
+}
+
+/*******************************/
+
+
+/***fale conosco***/
+
+#form_faleconosco{
+float:left;
+width: 410px;	
+height:auto;
+padding:20px;
+background-color:#efefef;
+border:1px dotted #d4d4d4;
+border-radius:5px 5px 5px 5px;
+-moz-border-radius:5px 5px 5px 5px;
+-webkit-border-radius:5px 5px 5px 5px;
+}
+
+#mapa_faleconosco{
+float:right;
+position:relative;
+width:450px;
+height:375px;
+margin-right:20px;
+margin-top:-30px;
+}
+
+/**************/
+
+
+
+/**SIMULADORES***/
+#simuladores{
+	float:left;
+	width:800px;
+	height:auto;
+	margin-bottom:37px;
+}
+
+
+#simuladores ul{
+	padding: 5px;
+	margin:10px 0;
+	list-style: none;
+	float: left;
+	clear: left;
+}
+
+#simuladores ul li {
+    float:left;
+	display:inline;
+	margin: 0 8px;	
+}
+
+#simuladores ul li a {
+	text-decoration: none;
+	float:left;
+	cursor: pointer;
+}
+/***************/
+
+
+/**Detalhes do imovel**/
+
+#box-foto-valor{
+	float: left;
+	position:relative;
+	width: 210px;
+	height: auto;
+	
+}
+
+#box-foto{
+    float: left;
+	width: 150px;
+    height: 114px;
+    border: 1px solid #cccbcb;
+	
+	
+}
+#box-foto-resultado{
+    float: left;
+    width: 100px;
+    height: 80px;
+    border: 1px solid #cccbcb;
+}
+
+.bkg_valor_imovel{
+ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+ font-size:16px;
+ font-weight:bold;
+ color:#fff;
+ text-align:center;
+ background:#2e4692;
+ border:1px solid #ffffff;
+ border-radius:6px 6px 6px 6px;
+ -moz-border-radius:6px 6px 6px 6px;
+ -webkit-border-radius:6px 6px 6px 6px;
+ width:200px;
+ height:22px;
+ padding:5px;
+margin-top:15px;
+
+}
+
+.bkg_numero_chave{
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+ font-size:14px;
+ font-weight:bold;
+ color:#5a5a5a;
+ text-align:center;
+ background:#cccbcb;
+ border:0px solid #ffffff;
+ border-radius:4px 4px 4px 4px;
+ -moz-border-radius:4px 4px 4px 4px;
+ -webkit-border-radius:4px 4px 4px 4px;
+ width:20px;
+ height:20px;
+ padding:3px;
+ margin-left:200px;
+ z-index:10;
+	
+}
+
+
+
+#inf-imovel{
+    float: left;
+    width: 520px;
+    margin-left: 30px;
+	padding:10px;
+	background:#efefef;
+border:1px solid #e7e7e7;
+border-radius:5px 5px 5px 5px;
+-moz-border-radius:5px 5px 5px 5px;
+-webkit-border-radius:5px 5px 5px 5px;
+}
+
+#inf-imovel p{
+    float: left;
+    width: 80%;
+    font-size: 14px;
+}
+
+#inf-imovel .valor{
+    float: left;
+    padding-bottom: 20px;
+    color: #06386d;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#bg-chave{
+    margin-left:30px;
+    background: url(../images/bg-chave.png) no-repeat;
+    width: 138px;
+    float: left;
+    height: 196px;
+	z-index:1;
+}
+
+#bg-chave p{
+    font-size: 25px;
+    margin-top: 150px;
+	margin-left:10px;
+    color: #06386d;
+    text-align: center;
+    font-weight: bold;
+	z-index:4;
+}
+
+#descricao{
+    float: left;
+    width: 520px;
+    margin-top: 20px;
+    
+}
+
+#descricao p{
+    color:#5a5a5a;
+	font-size:11px;
+		
+	
+}
+#descricao b{
+    color: #06386d;
+    font-weight: bold;
+}
+
+#mais-fotos{
+    float: left;
+    margin-top: 20px;
+	clear:both;
+}
+
+#mais-fotos table{
+    float: left;
+}
+
+#mais-fotos table tr td{
+    float: left;
+    height: 180px;
+    width: 235px;
+}
+
+.slide-imoveis{
+	
+	margin-left:20px;
+}
+
+
+.slide-imoveis2{
+	
+	margin-left:20px;
+}
+
+/**************************/
+.botao_det_imoveis{
+ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+ font-size:12px;
+ font-weight:bold;
+ color:#fff;
+ background:#06386d;
+border-radius:5px 5px 5px 5px;
+-moz-border-radius:5px 5px 5px 5px;
+-webkit-border-radius:5px 5px 5px 5px;
+width:120px;
+padding:5px 5px 5px 5px;
+}
+
+
+#bts-imoveis{
+    float: left;
+    margin-top: 40px;
+    margin-left: 170px;
+    width: 70%;
+	color:#fff;
+}
+
+
+#bts-imoveis ul{
+	padding: 5px;
+	margin:10px 0;
+	list-style: none;
+	float: left;
+	clear: left;
+	
+}
+
+#bts-imoveis ul li {
+    float:left;
+	display:inline;
+	margin: 0 10px;	
+	text-align:center;
+}
+
+#bts-imoveis ul li a {
+	text-decoration: none;
+    color:#fff;
+	background-color:#06386d;
+
+}
+
+
+#bts-imoveis img{
+    float: left;
+    margin-right: 15px;
+}
+
+/*************/
+/***BOTOES****/
+/*************/
+
+
+.botao_geral_form{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+text-transform:uppercase;
+color:#fff;
+background:#f07d19;
+border:0px solid #ffffff;
+border-radius:6px 6px 6px 6px;
+-moz-border-radius:6px 6px 6px 6px;
+-webkit-border-radius:6px 6px 6px 6px;
+width:110px;
+height:40px;
+cursor:pointer;
+margin-top:10px;
+margin-buttom:20px;
+text-align:center;
+padding:10px 8px 10px 8px;
+}
+
+.botao_geral_form2{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+text-transform:uppercase;
+color:#fff;
+background:#f07d19;
+border:0px solid #ffffff;
+border-radius:6px 6px 6px 6px;
+-moz-border-radius:6px 6px 6px 6px;
+-webkit-border-radius:6px 6px 6px 6px;
+width:90px;
+height:15px;
+cursor:pointer;
+margin:30px 0 20px 0;
+text-align:center;
+padding:14px 8px 10px 8px;
+float:left;
+position:relative;
+}
+
+.botao_geral_form2 a{
+text-decoration:none;
+color:#fff;	
+}
+
+.botao_geral_form2 a:hover{
+text-decoration:none;
+color:#fff;	
+}
+
+
+.botao_geral{
+width:110px;
+height:35px;
+cursor:pointer;
+margin-top:30px;
+}
+
+
+
+
+
+.botao_geral a{
+ color:#fff;
+ text-decoration:none;
+}
+
+.botao_geral a:hover{
+ color:#fff;
+ text-decoration:none;
+}
+
+
+#bt-voltar{
+    margin-top: 70px;
+    float: left;
+	width:95px;
+	height:35px;
+}
+.bt-texto{
+ padding:10px;	
+ text-decoration:none;
+ text-align:center;
+}
+
+
+#bt-mais-noticias{
+    margin-top: 70px;
+    float: left;
+    padding-right: 10px;
+    width: 166px;
+    height: 33px;
+}
+
+#box-busca-resultado{
+    float:left;
+    width:40%;
+    padding:20px;
+    margin:10px;
+	border:1px dotted #b7dce2;
+}
+
+.bt_maisdetalhes_busca{
+ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+ font-size:12px;
+ font-weight:bold;
+ color:#fff;
+ background:#cdcdcd;
+border-radius:5px 5px 5px 5px;
+-moz-border-radius:5px 5px 5px 5px;
+-webkit-border-radius:5px 5px 5px 5px;
+width:100px;
+padding:5px;
+margin-top:20px;
+float:left;
+position:relative;
+text-align:center;
+}
+
+.bt_maisdetalhes_busca a{
+text-decoration:none;
+color:#fff;
+	
+}
+
+.bt_maisdetalhes_busca a:hover{
+text-decoration:none;
+color:#fff;	!important
+}
+
+
+/****AREA RESTRITA***/
+/********************/
+
+#box_area_restrita{
+    float: left;
+    margin-left:260px;
+	margin-top:30px;
+    width: 390px;
+	padding:20px 30px 20px 30px;
+	background:#fff;
+	border:1px solid #dfdede;
+	border-radius:5px 5px 5px 5px;
+-moz-border-radius:5px 5px 5px 5px;
+-webkit-border-radius:5px 5px 5px 5px;
+}
+
+/******/
+
+#box-form-uploads{
+    float: left;
+     margin-bottom: 30px;
+    margin-left: -70px;
+    width: 400px;
+	padding:20px;
+	background:#e4e9ea;
+	border:1px solid #dfdede;
+	border-radius:5px 5px 5px 5px;
+    -moz-border-radius:5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+}
+
+#box-form-uploads form{
+    float: left;
+}
+
+#box-form-uploads h3{
+    color: #06386d;
+    font-size: 20px;
+}
+
+
+#box-meus-pedidos{
+    float:left;
+    background: #e9e9e9;
+    width:400px;
+    margin:5px;
+    padding:10px;
+    line-height:16px;
+	border-radius:5px 5px 5px 5px;
+-moz-border-radius:5px 5px 5px 5px;
+-webkit-border-radius:5px 5px 5px 5px;
+}
+
+#meus-imoves{
+    width:450px;
+}
+
+#novo-pedido{
+    width:430px;
+}
+
+a.link-vm {
+    color: #06386d;
+    text-decoration:none;
+}
+
+a:hover.link-vm {
+    color: #f58b1b;
+    text-decoration:none;
+}
+
+#busca-avancada{
+    float: left;
+	padding:15px;
+	margin-top:20px;
+	margin-bottom:4px;
+	background-color:#fcfcfc;
+	border:1px dotted #d4d4d4;
+	border-radius:5px 5px 5px 5px;
+    -moz-border-radius:5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+}
+
+
+#busca-avancada .select-1{
+    padding: 4px;
+    font-size: 11px;
+    width: 152px;
+}
+#busca-avancada .select-2{
+    padding: 4px;
+    font-size: 11px;
+    width: 115px;
+}
+
+#form-cad-imovel{
+	float: left;
+}
+
+.botao_voltar_detalhesimovel{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+text-transform:uppercase;
+color:#fff;
+background:#f07d19;
+
+border:0px solid #ffffff;
+border-radius:6px 6px 6px 6px;
+-moz-border-radius:6px 6px 6px 6px;
+-webkit-border-radius:6px 6px 6px 6px;
+
+width:90px;
+height:15px;
+
+margin:80px 0 20px 20px;
+text-align:center;
+padding:14px 8px 10px 8px;
+float:left;
+position:relative;
+}
+
+.botao_voltar_detalhesimovel a{
+text-decoration:none;
+color:#fff;	
+}
+
+.botao_voltar_detalhesimovel a:hover{
+text-decoration:none;
+color:#fff;	
+}
